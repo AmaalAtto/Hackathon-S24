@@ -1,0 +1,38 @@
+
+
+#example {
+  background: url('stoopsaleimage.jpg') no-repeat top center;
+  background-size: contain;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align items to the bottom */
+  align-items: center; /* Center items horizontally */
+  color: white;
+  text-align: center; /* Center align text */
+}
+
+#todo-container {
+  background: rgba(118, 164, 78, 0.8); /* Semi-transparent background */
+  width: 100%; /* Full width */
+  padding: 20px;
+  color: hsl(189, 19%, 93%);
+  background-size: cover;
+  text-align: center;
+}
+
+#header {
+  margin: 5px;
+  font-size: 20px;
+}
+
+h3 {
+  margin-bottom: 30px; 
+}
+
+ul#list-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Ensure no extra space around the list */
+}
+
